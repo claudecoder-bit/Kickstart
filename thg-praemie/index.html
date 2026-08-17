@@ -788,6 +788,12 @@ function stepIban(){
         </div>
       </div>
     </div>
+    <button class="choice" onclick="useDemoIban()" style="display:flex;align-items:center;gap:14px;padding:14px 16px">
+      <span class="ico" style="margin:0;width:44px;height:44px">${IC.bolt}</span>
+      <span style="flex:1"><b style="font-size:16.5px">Demo-IBAN verwenden</b>
+      <p style="margin-top:2px;font-size:13.5px">Gültige Muster-IBAN für die Präsentation einsetzen</p></span>
+      ${IC.chevR}
+    </button>
     <div class="note"><span style="flex:none">${IC.info}</span>
       <span>Die Auszahlung erfolgt nach Bestätigung der Quote durch das Umweltbundesamt, in der Regel 10–16 Wochen nach Einreichung.</span></div>
   </div>
@@ -795,6 +801,10 @@ function stepIban(){
     <button class="btn ghost" onclick="wiz.step=2;renderWizard()">Zurück</button>
     <button class="btn primary" id="iban-next" ${valid?"":"disabled"} onclick="wiz.step=4;wiz.aufklIndex=0;wiz.aufklChecked=false;wiz.aufklDone=[];renderWizard()">Weiter</button>
   </div>`;
+}
+function useDemoIban(){
+  wiz.iban = "DE02120300000000202051";
+  renderWizard();
 }
 function onIban(el){
   const pos = el.selectionStart;
@@ -879,7 +889,8 @@ function stepSignatur(){
       </div>
       <div class="sig-tools">
         <button class="link-btn" onclick="clearSignature()">Löschen</button>
-        <span style="font-size:13px;color:var(--muted)">Unterschrift des Fahrzeughalters</span>
+        <button class="link-btn" onclick="demoSignature()">Demo-Unterschrift</button>
+        <span style="font-size:13px;color:var(--muted)">Unterschrift des Halters</span>
       </div>
     </div>
 
@@ -927,6 +938,34 @@ function initSignature(){
   const up = ()=>{ sig.drawing = false; };
   canvas.addEventListener("pointerup", up);
   canvas.addEventListener("pointercancel", up);
+}
+function demoSignature(){
+  const canvas = $("#sigCanvas");
+  if(!canvas || !sig) return;
+  clearSignature();
+  const ctx = sig.ctx;
+  const w = canvas.offsetWidth, base = 150;
+  /* geschwungener Muster-Schriftzug des Demo-Halters */
+  ctx.save();
+  ctx.beginPath();
+  ctx.moveTo(w*0.12, base);
+  ctx.bezierCurveTo(w*0.16, base-70, w*0.24, base-78, w*0.24, base-30);
+  ctx.bezierCurveTo(w*0.24, base+8,  w*0.16, base+6,  w*0.20, base-14);
+  ctx.bezierCurveTo(w*0.26, base-44, w*0.34, base-40, w*0.38, base-18);
+  ctx.bezierCurveTo(w*0.42, base+2,  w*0.48, base-4,  w*0.50, base-22);
+  ctx.bezierCurveTo(w*0.52, base-38, w*0.58, base-36, w*0.60, base-16);
+  ctx.bezierCurveTo(w*0.63, base+6,  w*0.70, base-60, w*0.74, base-26);
+  ctx.bezierCurveTo(w*0.77, base-2,  w*0.84, base-10, w*0.88, base-20);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.moveTo(w*0.30, base+16);
+  ctx.quadraticCurveTo(w*0.55, base+30, w*0.80, base+12);
+  ctx.stroke();
+  ctx.restore();
+  sig.empty = false;
+  $("#sigHint").style.display = "none";
+  $("#sigWrap").classList.add("signed");
+  $("#finishBtn").disabled = false;
 }
 function clearSignature(){
   const canvas = $("#sigCanvas");
