@@ -28,7 +28,7 @@ Was dieser Weg bedeutete, erschließt sich nicht allein aus dem Anlass. Er zeigt
 
 Warum trägt eine Kirche das Holz, an dem ihr Herr starb, festlich durch die Stadt? Die Frage liegt nahe, wenn man einen solchen Zug zum ersten Mal erlebt. Die Antwort beginnt mit der Geschichte des Festes. Nach kirchlicher Überlieferung ließ die heilige Helena, die Mutter Kaiser Konstantins, im vierten Jahrhundert in Jerusalem nach dem Kreuz Christi suchen und fand es. Daran erinnert das Fest der Kreuzerhöhung, das in Bulgarien am 14. September gefeiert wird. Die Prozession gehörte zu den Jubiläumsfeiern, mit denen die bulgarische Kirche dieses Ereignisses gedachte.
 
-Eine Kreuzreliquie ist ein Holzstück, das als Teil des Kreuzes Christi überliefert und verehrt wird. Schon der heilige Kyrill von Jerusalem berichtet, dass Kreuzholz von Jerusalem aus an viele Orte gelangt sei. Zugleich verbindet er das Bekenntnis zum Kreuz mit der Auferstehung: Weil er um sie wisse, bekenne er sich zum Kreuz. Das Leiden Christi und der Sieg über den Tod gehören für ihn zusammen. Wer das Kreuz verehrt, bekennt damit zugleich den Glauben an die Auferstehung, und dieser Zusammenhang gibt der Verehrung ihren Ernst und zugleich ihre Freude.
+Eine Kreuzreliquie ist ein Holzstück, das als Teil des Kreuzes Christi überliefert und verehrt wird. Schon der heilige Kyrill von Jerusalem berichtet, dass Kreuzholz von Jerusalem aus an viele Orte gelangt sei. Zugleich verbindet er das Bekenntnis zum Kreuz mit der Auferstehung: Weil er um sie wisse, bekenne er sich zum Kreuz. Das Leiden Christi und der Sieg über den Tod gehören für ihn zusammen. Wer das Kreuz verehrt, bekennt damit auch den Glauben an die Auferstehung, und dieser Zusammenhang gibt der Verehrung ihren Ernst und zugleich ihre Freude.
 
 Vor der kleinen Vesper sagte Patriarch Daniil: „Das ehrwürdige Kreuz ist der Baum des Lebens, denn an ihm hat der Herr den Tod besiegt.“ Der Satz fasst zusammen, worum es an diesem Tag ging: Das Holz, an dem Christus gestorben ist, wird in der Kirche als Baum des Lebens verehrt.
 
@@ -102,7 +102,7 @@ Prozession und Gottesdienst bilden einen gemeinsamen Weg: Auf den Straßen wird 
 
 ### Ein Segen für ganz Sofia
 
-Am Ende galt das Gebet der ganzen Stadt. Patriarch Daniil verband die Prozession mit einer Bitte für ganz Sofia. Er sprach von der Heiligung der Straßen und Gebäude durch das lebenspendende Kreuz und bat um die Erleuchtung des Verstandes und der Herzen aller Bewohner. Für die Gläubigen erbat er Liebe zu Gott und zueinander, damit sie nach dem Vorbild Christi ihre eigenen Schwächen überwinden könnten.
+Patriarch Daniil verband die Prozession mit einer Bitte für ganz Sofia. Er sprach von der Heiligung der Straßen und Gebäude durch das lebenspendende Kreuz und bat um die Erleuchtung des Verstandes und der Herzen aller Bewohner. Für die Gläubigen erbat er Liebe zu Gott und zueinander, damit sie nach dem Vorbild Christi ihre eigenen Schwächen überwinden könnten.
 
 Darin liegt auch eine Bedeutung für das Zusammenleben in der Stadt. Eine Prozession kann die Gemeinde stärken und zugleich anderen Mitbürgern eine Begegnung mit dem Glauben ermöglichen. Auch diejenigen, die politische Verantwortung tragen, gehören zu den Menschen, denen dieses Gebet gilt. Die Hoffnung auf ein gutes Miteinander beginnt dabei mit dem eigenen Handeln der Gläubigen.
 
